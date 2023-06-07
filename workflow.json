@@ -2,7 +2,7 @@
   "kind": "Workflow",
   "id": "0e19b61311c69fe34f479b830b8e4dcf",
   "isDeleted": false,
-  "rev": "5-abd2e63b24931bc0e830067a7def1827",
+  "rev": "9-4b89ea7812d74253e599ca074e66c07c",
   "description": "image analysis PTK Pre Wash",
   "name": "image_analysis_PTK_prewash",
   "createdBy": "dschuller",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2023-04-11T07:18:17.770893Z"
+    "value": "2023-06-07T12:32:05.901927Z"
   },
   "urls": [
     {
@@ -263,7 +263,8 @@
                   }
                 }
               },
-              "taskId": ""
+              "taskId": "",
+              "preprocessors": []
             }
           ]
         },
@@ -343,7 +344,10 @@
               "key": "debug",
               "value": "false"
             }
-          ]
+          ],
+          "operatorModel": {
+            "kind": "OperatorModel"
+          }
         },
         "rowTable": {
           "kind": "CrosstabTable",
@@ -379,8 +383,9 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "63269b97-2804-42b8-9da1-ae923a13fcd0"
-      }
+        "id": "a85831cb-f477-47a6-937f-48a7f36a90b6"
+      },
+      "parentDataStepId": ""
     },
     {
       "kind": "DataStep",
@@ -537,7 +542,8 @@
                   }
                 }
               },
-              "taskId": ""
+              "taskId": "",
+              "preprocessors": []
             }
           ]
         },
@@ -745,7 +751,10 @@
               "key": "debug",
               "value": "false"
             }
-          ]
+          ],
+          "operatorModel": {
+            "kind": "OperatorModel"
+          }
         },
         "rowTable": {
           "kind": "CrosstabTable",
@@ -781,8 +790,9 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "277f0b43-5117-4fc8-a161-d1bb824e6db2"
-      }
+        "id": "9d1e1151-aecc-438f-9719-87377a723da4"
+      },
+      "parentDataStepId": ""
     },
     {
       "kind": "MeltStep",
@@ -1119,7 +1129,8 @@
                   }
                 }
               },
-              "taskId": ""
+              "taskId": "",
+              "preprocessors": []
             }
           ]
         },
@@ -1369,7 +1380,10 @@
               "key": "debug",
               "value": "false"
             }
-          ]
+          ],
+          "operatorModel": {
+            "kind": "OperatorModel"
+          }
         },
         "rowTable": {
           "kind": "CrosstabTable",
@@ -1405,8 +1419,9 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "32519e0b-2ec3-41d0-aab9-dd42b69ebd97"
-      }
+        "id": "0cbba05e-e2e5-4549-a3be-37d7ec0ac3d7"
+      },
+      "parentDataStepId": ""
     },
     {
       "kind": "DataStep",
@@ -1557,7 +1572,8 @@
                   }
                 }
               },
-              "taskId": ""
+              "taskId": "",
+              "preprocessors": []
             }
           ]
         },
@@ -1694,7 +1710,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 95472
+          "nRows": 71136
         },
         "filters": {
           "kind": "Filters",
@@ -1807,7 +1823,10 @@
               "key": "debug",
               "value": "false"
             }
-          ]
+          ],
+          "operatorModel": {
+            "kind": "OperatorModel"
+          }
         },
         "rowTable": {
           "kind": "CrosstabTable",
@@ -1843,8 +1862,9 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "890645bd-e7c3-486e-bc2b-cf1a3ac6f1c1"
-      }
+        "id": "fda08e6f-9195-4982-a3f8-493300b0c170"
+      },
+      "parentDataStepId": ""
     },
     {
       "kind": "MeltStep",
@@ -2136,7 +2156,8 @@
                   }
                 }
               },
-              "taskId": ""
+              "taskId": "",
+              "preprocessors": []
             }
           ]
         },
@@ -2220,7 +2241,10 @@
               "key": "ram",
               "value": "0"
             }
-          ]
+          ],
+          "operatorModel": {
+            "kind": "OperatorModel"
+          }
         },
         "rowTable": {
           "kind": "CrosstabTable",
@@ -2424,8 +2448,9 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "2c13ec0b-73a4-4335-a21f-53ef438f64a3"
-      }
+        "id": "22f16759-8631-4030-b979-2f751bc55bfb"
+      },
+      "parentDataStepId": ""
     },
     {
       "kind": "ExportStep",
@@ -2469,7 +2494,7 @@
       "kind": "TableStep",
       "id": "fcbaf7e7-16a2-4699-afd5-5b49bd4a027b",
       "groupId": "",
-      "name": "640231420_640231421_640231422-on 1200PTKlysv06-run 220128112559.zip",
+      "name": "641024305_641024309_641024313-on 1200PTKlysv06-run 221028091613.zip",
       "inputs": [],
       "outputs": [
         {
@@ -2503,7 +2528,7 @@
         "kind": "TableStepModel",
         "relation": {
           "kind": "UnionRelation",
-          "id": "d02f075f-602f-4a1b-b5bd-34fb9c3cfc9d",
+          "id": "b4998403-a165-4a17-b972-240c0499223a",
           "relations": []
         }
       }
@@ -2657,7 +2682,8 @@
                   }
                 }
               },
-              "taskId": ""
+              "taskId": "",
+              "preprocessors": []
             }
           ]
         },
@@ -2737,7 +2763,10 @@
               "key": "debug",
               "value": "false"
             }
-          ]
+          ],
+          "operatorModel": {
+            "kind": "OperatorModel"
+          }
         },
         "rowTable": {
           "kind": "CrosstabTable",
@@ -2773,13 +2802,14 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "6c5cd8fa-9ca5-4c5d-b7ba-43030e07aa77"
-      }
+        "id": "dc345d79-8426-449b-b3a1-8ab14d8d012f"
+      },
+      "parentDataStepId": ""
     }
   ],
   "offset": {
     "kind": "Point",
-    "x": -282.0,
-    "y": -425.0
+    "x": -607.0,
+    "y": -64.0
   }
 }
