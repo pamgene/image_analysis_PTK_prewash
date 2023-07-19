@@ -2,13 +2,13 @@
   "kind": "Workflow",
   "id": "0e19b61311c69fe34f479b830b8e4dcf",
   "isDeleted": false,
-  "rev": "13-7a654a90871ded58cc8f81327c18b683",
+  "rev": "19-e366bcd63538e230580b46ce48127479",
   "description": "image analysis PTK Pre Wash",
-  "name": "image_analysis_PTK_prewash",
+  "name": "image_analysis_PTK_prewash_template",
   "createdBy": "dschuller",
   "acl": {
     "kind": "Acl",
-    "owner": "Test_NewTemplates",
+    "owner": "dschuller",
     "aces": []
   },
   "createdDate": {
@@ -17,12 +17,12 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2023-06-20T11:25:43.896361Z"
+    "value": "2023-07-19T08:07:58.113313Z"
   },
   "urls": [
     {
       "kind": "Url",
-      "uri": "https://github.com/tercen/image_analysis_PTK_PreWash_template"
+      "uri": "https://github.com/pamgene/image_analysis_PTK_prewash_template"
     }
   ],
   "tags": [],
@@ -90,12 +90,6 @@
     },
     {
       "kind": "Link",
-      "id": "be056ca0-d46a-4464-a08d-1674eecdf5ef",
-      "inputId": "1875fb58-0b5b-477f-93a3-88efd340d1b0-i-0",
-      "outputId": "3fa699af-7d16-40b7-9c8f-c687c90d1d0c-o-0"
-    },
-    {
-      "kind": "Link",
       "id": "390ec279-3c9b-4e32-b3a5-549a88e2c4ac",
       "inputId": "43113601-5c8a-4d3c-abd0-bc2aa210429a-i-0",
       "outputId": "1875fb58-0b5b-477f-93a3-88efd340d1b0-o-0"
@@ -111,6 +105,24 @@
       "id": "0641e3b8-1960-4fb2-9f3a-2693234808df",
       "inputId": "7f20b852-e25d-4d6b-b6f9-b1f12ee6f2e0-i-0",
       "outputId": "fcbaf7e7-16a2-4699-afd5-5b49bd4a027b-o-0"
+    },
+    {
+      "kind": "Link",
+      "id": "3ca2486e-70b1-473c-8fa6-1d3ce3760629",
+      "inputId": "ba1431d9-5433-4ee7-9bfd-c77ccc0a5063-i-0",
+      "outputId": "3fa699af-7d16-40b7-9c8f-c687c90d1d0c-o-0"
+    },
+    {
+      "kind": "Link",
+      "id": "409a5280-8028-4e67-adfc-1bf7054db015",
+      "inputId": "ba1431d9-5433-4ee7-9bfd-c77ccc0a5063-i-1",
+      "outputId": "e0671f49-70cd-4bd9-bed2-6d6bcad9f3fb-o-0"
+    },
+    {
+      "kind": "Link",
+      "id": "836bc1dd-9be6-4d56-9f70-655bfe7b3a7b",
+      "inputId": "1875fb58-0b5b-477f-93a3-88efd340d1b0-i-0",
+      "outputId": "ba1431d9-5433-4ee7-9bfd-c77ccc0a5063-o-0"
     }
   ],
   "steps": [
@@ -383,7 +395,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "632ccf94-bd6b-4e42-abda-9e2f0f49f497"
+        "id": "173acf6b-cc5b-4ef5-ba47-f5f000393bd9"
       },
       "parentDataStepId": ""
     },
@@ -790,7 +802,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "3e4e8ca7-300c-4642-889b-33548fcae42b"
+        "id": "ddb418c5-f54c-49c4-8d13-3bfb49246edd"
       },
       "parentDataStepId": ""
     },
@@ -1419,7 +1431,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "fb24618a-4baa-446a-ab3b-8b9f48fb48e5"
+        "id": "fe8463c8-6b1b-44be-a30a-4b1ee54eeb53"
       },
       "parentDataStepId": ""
     },
@@ -1710,7 +1722,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 71136
+          "nRows": 95472
         },
         "filters": {
           "kind": "Filters",
@@ -1862,7 +1874,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "e2284c61-c0d7-4f10-abe8-62dd048abdcd"
+        "id": "83e33106-2500-43fd-b4ab-38f3a66158c7"
       },
       "parentDataStepId": ""
     },
@@ -2037,8 +2049,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 1078.8291403198245,
-          "y": 887.5
+          "x": 1186.8291403198245,
+          "y": 980.5
         }
       },
       "state": {
@@ -2248,7 +2260,7 @@
         },
         "rowTable": {
           "kind": "CrosstabTable",
-          "cellSize": 70.0,
+          "cellSize": 3.2857142857142856,
           "offset": 0,
           "graphicalFactors": [
             {
@@ -2339,6 +2351,48 @@
               "kind": "GraphicalFactor",
               "factor": {
                 "kind": "Factor",
+                "name": "ds1.spotRow",
+                "type": "double"
+              },
+              "rectangle": {
+                "kind": "Rectangle",
+                "extent": {
+                  "kind": "Point",
+                  "x": 40.0,
+                  "y": 30.0
+                },
+                "topLeft": {
+                  "kind": "Point",
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            },
+            {
+              "kind": "GraphicalFactor",
+              "factor": {
+                "kind": "Factor",
+                "name": "ds1.spotCol",
+                "type": "double"
+              },
+              "rectangle": {
+                "kind": "Rectangle",
+                "extent": {
+                  "kind": "Point",
+                  "x": 16.0,
+                  "y": 30.0
+                },
+                "topLeft": {
+                  "kind": "Point",
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            },
+            {
+              "kind": "GraphicalFactor",
+              "factor": {
+                "kind": "Factor",
                 "name": "ds0.Exposure Time",
                 "type": "double"
               },
@@ -2388,7 +2442,28 @@
                 "kind": "Rectangle",
                 "extent": {
                   "kind": "Point",
-                  "x": 21.0,
+                  "x": 203.0,
+                  "y": 30.0
+                },
+                "topLeft": {
+                  "kind": "Point",
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            },
+            {
+              "kind": "GraphicalFactor",
+              "factor": {
+                "kind": "Factor",
+                "name": "js0.UniprotAccession",
+                "type": "string"
+              },
+              "rectangle": {
+                "kind": "Rectangle",
+                "extent": {
+                  "kind": "Point",
+                  "x": 200.0,
                   "y": 30.0
                 },
                 "topLeft": {
@@ -2442,13 +2517,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 95171
+          "nRows": 95472
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "fb51d771-a911-45bc-8b39-d37ae278924a"
+        "id": "a269a98f-31a7-4c4c-87f3-0412d52ad9b7"
       },
       "parentDataStepId": ""
     },
@@ -2475,8 +2550,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 1074.8291403198245,
-          "y": 983.5
+          "x": 1187.8291403198245,
+          "y": 1073.5
         }
       },
       "state": {
@@ -2528,7 +2603,7 @@
         "kind": "TableStepModel",
         "relation": {
           "kind": "UnionRelation",
-          "id": "eb5652d1-9f17-49cd-8293-43afdd4a53fe",
+          "id": "c5b6e696-21f3-443f-8414-5c72dfd98536",
           "relations": []
         }
       }
@@ -2802,14 +2877,124 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "6412d9fb-f41e-4cc0-9eec-5469513fa850"
+        "id": "cfa1eae1-418f-4fac-94f8-cc9485255ff0"
       },
       "parentDataStepId": ""
+    },
+    {
+      "kind": "TableStep",
+      "id": "e0671f49-70cd-4bd9-bed2-6d6bcad9f3fb",
+      "groupId": "",
+      "name": "86412 Array Layout short.txt",
+      "inputs": [],
+      "outputs": [
+        {
+          "kind": "OutputPort",
+          "id": "e0671f49-70cd-4bd9-bed2-6d6bcad9f3fb-o-0",
+          "linkType": "relation",
+          "name": "table"
+        }
+      ],
+      "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+          "kind": "Point",
+          "x": 182.80581665039062,
+          "y": 55.0
+        },
+        "topLeft": {
+          "kind": "Point",
+          "x": 1267.505,
+          "y": 796.5
+        }
+      },
+      "state": {
+        "kind": "StepState",
+        "taskId": "",
+        "taskState": {
+          "kind": "InitState"
+        }
+      },
+      "model": {
+        "kind": "TableStepModel",
+        "relation": {
+          "kind": "UnionRelation",
+          "id": "370f78d7-6b39-4a8c-9cce-aeeca1110148",
+          "relations": []
+        }
+      }
+    },
+    {
+      "kind": "JoinStep",
+      "id": "ba1431d9-5433-4ee7-9bfd-c77ccc0a5063",
+      "groupId": "",
+      "name": "Join",
+      "inputs": [
+        {
+          "kind": "InputPort",
+          "id": "ba1431d9-5433-4ee7-9bfd-c77ccc0a5063-i-0",
+          "linkType": "relation",
+          "name": "leftTable"
+        },
+        {
+          "kind": "InputPort",
+          "id": "ba1431d9-5433-4ee7-9bfd-c77ccc0a5063-i-1",
+          "linkType": "relation",
+          "name": "rightTable"
+        }
+      ],
+      "outputs": [
+        {
+          "kind": "OutputPort",
+          "id": "ba1431d9-5433-4ee7-9bfd-c77ccc0a5063-o-0",
+          "linkType": "relation",
+          "name": "table"
+        }
+      ],
+      "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+          "kind": "Point",
+          "x": 88.99000000000001,
+          "y": 55.0
+        },
+        "topLeft": {
+          "kind": "Point",
+          "x": 1186.8291555786136,
+          "y": 882.5
+        }
+      },
+      "state": {
+        "kind": "StepState",
+        "taskId": "",
+        "taskState": {
+          "kind": "InitState"
+        }
+      },
+      "model": {
+        "kind": "JoinStepModel",
+        "leftFactors": [
+          {
+            "kind": "Factor",
+            "name": "ds1.ID",
+            "type": "string"
+          }
+        ],
+        "rightFactors": [
+          {
+            "kind": "Factor",
+            "name": "ID",
+            "type": "string"
+          }
+        ],
+        "rightPrefix": "js0"
+      },
+      "rightAttributes": []
     }
   ],
   "offset": {
     "kind": "Point",
-    "x": -578.0,
-    "y": 38.0
+    "x": -469.0,
+    "y": -12.0
   }
 }
