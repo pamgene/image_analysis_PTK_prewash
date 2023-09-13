@@ -1311,8 +1311,8 @@
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "pamsoft_grid_qt_operator",
-            "version": "1.4.1",
-            "operatorId": "164f4cf9ebe56cb1bc5e859e58411eed",
+            "version": "1.4.2",
+            "operatorId": "ba3163d67612e4be851fad45615f5319",
             "operatorKind": "DockerOperator",
             "propertyValues": [
               {
