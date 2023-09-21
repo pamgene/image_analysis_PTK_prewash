@@ -1,23 +1,23 @@
 {
   "kind": "Workflow",
-  "id": "0e19b61311c69fe34f479b830b8e4dcf",
+  "id": "7d14e12b0ec4e840f0bc1c2ed832064c",
   "isDeleted": false,
-  "rev": "23-ef4549ec956f51ac3d4c245db9295d8e",
+  "rev": "5-0f17093ba3f68226c75adbd370c076e9",
   "description": "image analysis PTK Pre Wash",
   "name": "image_analysis_PTK_prewash_template",
   "createdBy": "dschuller",
   "acl": {
     "kind": "Acl",
-    "owner": "dschuller",
+    "owner": "Test_NewTemplates",
     "aces": []
   },
   "createdDate": {
     "kind": "Date",
-    "value": "2023-04-11T06:52:39.323358Z"
+    "value": "2023-09-19T10:55:51.650585Z"
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2023-07-20T15:19:27.812379Z"
+    "value": "2023-09-21T11:32:30.871172Z"
   },
   "urls": [
     {
@@ -52,7 +52,7 @@
     "kind": "Url",
     "uri": "https://github.com/pamgene/image_analysis_PTK_prewash_template"
   },
-  "version": "0.0.5",
+  "version": "0.1.0",
   "authors": [],
   "isPublic": false,
   "projectId": "5fdacf2e254f508d0bd669ac039fb28b",
@@ -156,8 +156,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 1087.859609375,
-          "y": 314.5
+          "x": 1083.859609375,
+          "y": 327.5
         }
       },
       "state": {
@@ -395,7 +395,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "b8445f62-e54c-47cc-836a-9cd377600dff"
+        "id": "c189079f-d396-4f52-a724-c2e1fd1e000f"
       },
       "parentDataStepId": ""
     },
@@ -429,8 +429,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 1075.5548046875,
-          "y": 410.5
+          "x": 1078.5548046875,
+          "y": 419.5
         }
       },
       "state": {
@@ -650,7 +650,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 36
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -802,7 +802,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "a7a8ac84-65e8-432d-a3fe-1e2f27ec6755"
+        "id": "6e92fe7c-4688-4c6e-9559-8a7feb8f204e"
       },
       "parentDataStepId": ""
     },
@@ -1431,7 +1431,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "5023059b-6960-4849-ac91-08b4aa923fca"
+        "id": "e6449d13-06d7-467b-b465-57e7f5ab9167"
       },
       "parentDataStepId": ""
     },
@@ -1722,7 +1722,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 95472
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -1868,13 +1868,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 9
+          "nRows": 1
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "bdbc8be1-8e29-4885-bc27-e3e4804c8b16"
+        "id": "bc4f4f83-df67-432e-acbb-2c113f3e082a"
       },
       "parentDataStepId": ""
     },
@@ -2523,7 +2523,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "d0a9fb7f-1c6a-4a7f-96d3-faa70fe8c1af"
+        "id": "1fe3ce7c-6781-4bf9-997c-22b60105a190"
       },
       "parentDataStepId": ""
     },
@@ -2569,7 +2569,7 @@
       "kind": "TableStep",
       "id": "fcbaf7e7-16a2-4699-afd5-5b49bd4a027b",
       "groupId": "",
-      "name": "641024305_641024309_641024313-on 1200PTKlysv06-run 221028091613.zip",
+      "name": "641031403_641031404_641031406-on 1200PTKlysv06-run 230703112607.zip",
       "inputs": [],
       "outputs": [
         {
@@ -2603,7 +2603,7 @@
         "kind": "TableStepModel",
         "relation": {
           "kind": "UnionRelation",
-          "id": "46afbcab-c47d-4cb4-b7b4-db0e4980d88b",
+          "id": "0cc715e8-18c6-467c-96c7-059bf78b564a",
           "relations": []
         }
       }
@@ -2639,7 +2639,7 @@
         "topLeft": {
           "kind": "Point",
           "x": 1268.3912561035158,
-          "y": 318.5
+          "y": 319.5
         }
       },
       "state": {
@@ -2803,8 +2803,8 @@
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "PS12 Image Overview Shiny Operator",
-            "version": "0.2.0",
-            "operatorId": "a9cd3a4bedccc84127966ac725dfd365",
+            "version": "0.2.1",
+            "operatorId": "ba3163d67612e4be851fad4561b33d4b",
             "operatorKind": "ShinyOperator",
             "propertyValues": [],
             "url": {
@@ -2877,7 +2877,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "4c50936c-836e-40ec-93ce-a22dcea13cfe"
+        "id": "affdd6aa-2119-41fb-916f-a402fcfc8817"
       },
       "parentDataStepId": ""
     },
@@ -2919,7 +2919,7 @@
         "kind": "TableStepModel",
         "relation": {
           "kind": "UnionRelation",
-          "id": "c3f40b09-8050-4d3d-b32e-682482093cbe",
+          "id": "0edac035-e9ed-4f43-9ae7-3255cef9c40a",
           "relations": []
         }
       }
@@ -2994,7 +2994,7 @@
   ],
   "offset": {
     "kind": "Point",
-    "x": -564.0,
-    "y": -146.0
+    "x": -510.0,
+    "y": -90.0
   }
 }
