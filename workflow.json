@@ -2,7 +2,7 @@
   "kind": "Workflow",
   "id": "7d14e12b0ec4e840f0bc1c2ed832064c",
   "isDeleted": false,
-  "rev": "5-0f17093ba3f68226c75adbd370c076e9",
+  "rev": "7-a59f04defbe102087436d5e46366dbd7",
   "description": "image analysis PTK Pre Wash",
   "name": "image_analysis_PTK_prewash_template",
   "createdBy": "dschuller",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2023-09-21T11:32:30.871172Z"
+    "value": "2023-11-01T15:22:26.162567Z"
   },
   "urls": [
     {
@@ -395,7 +395,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "c189079f-d396-4f52-a724-c2e1fd1e000f"
+        "id": "415dab70-9691-49fa-9593-ac7b88a4ca97"
       },
       "parentDataStepId": ""
     },
@@ -802,7 +802,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "6e92fe7c-4688-4c6e-9559-8a7feb8f204e"
+        "id": "e1fa3921-0173-44aa-bb76-3e83a1cd2cbe"
       },
       "parentDataStepId": ""
     },
@@ -836,7 +836,7 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 1078.0842187500002,
+          "x": 1079.0842187500002,
           "y": 514.5
         }
       },
@@ -1431,7 +1431,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "e6449d13-06d7-467b-b465-57e7f5ab9167"
+        "id": "52cc2dc5-28f7-45f7-aac9-0003cbf9caa0"
       },
       "parentDataStepId": ""
     },
@@ -1722,7 +1722,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 1
+          "nRows": 95472
         },
         "filters": {
           "kind": "Filters",
@@ -1868,13 +1868,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 1
+          "nRows": 9
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "bc4f4f83-df67-432e-acbb-2c113f3e082a"
+        "id": "49dfebb2-8645-4a7f-8ffb-af3dfb23438d"
       },
       "parentDataStepId": ""
     },
@@ -2223,7 +2223,7 @@
                   }
                 }
               ],
-              "name": "Cycle < 94"
+              "name": "Cycle  < 94"
             }
           ]
         },
@@ -2260,7 +2260,7 @@
         },
         "rowTable": {
           "kind": "CrosstabTable",
-          "cellSize": 3.2857142857142856,
+          "cellSize": 36.38805346700084,
           "offset": 0,
           "graphicalFactors": [
             {
@@ -2456,14 +2456,98 @@
               "kind": "GraphicalFactor",
               "factor": {
                 "kind": "Factor",
-                "name": "js0.UniprotAccession",
+                "name": "js0.Sequence",
                 "type": "string"
               },
               "rectangle": {
                 "kind": "Rectangle",
                 "extent": {
                   "kind": "Point",
-                  "x": 200.0,
+                  "x": 120.0,
+                  "y": 30.0
+                },
+                "topLeft": {
+                  "kind": "Point",
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            },
+            {
+              "kind": "GraphicalFactor",
+              "factor": {
+                "kind": "Factor",
+                "name": "js0.SeqMatch",
+                "type": "string"
+              },
+              "rectangle": {
+                "kind": "Rectangle",
+                "extent": {
+                  "kind": "Point",
+                  "x": 120.0,
+                  "y": 30.0
+                },
+                "topLeft": {
+                  "kind": "Point",
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            },
+            {
+              "kind": "GraphicalFactor",
+              "factor": {
+                "kind": "Factor",
+                "name": "js0.UniprotID",
+                "type": "string"
+              },
+              "rectangle": {
+                "kind": "Rectangle",
+                "extent": {
+                  "kind": "Point",
+                  "x": 130.0,
+                  "y": 30.0
+                },
+                "topLeft": {
+                  "kind": "Point",
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            },
+            {
+              "kind": "GraphicalFactor",
+              "factor": {
+                "kind": "Factor",
+                "name": "js0.UniprotName",
+                "type": "string"
+              },
+              "rectangle": {
+                "kind": "Rectangle",
+                "extent": {
+                  "kind": "Point",
+                  "x": 150.0,
+                  "y": 30.0
+                },
+                "topLeft": {
+                  "kind": "Point",
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            },
+            {
+              "kind": "GraphicalFactor",
+              "factor": {
+                "kind": "Factor",
+                "name": "js0.SeqSimilarity",
+                "type": "double"
+              },
+              "rectangle": {
+                "kind": "Rectangle",
+                "extent": {
+                  "kind": "Point",
+                  "x": 170.0,
                   "y": 30.0
                 },
                 "topLeft": {
@@ -2517,13 +2601,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 95472
+          "nRows": 124020
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "1fe3ce7c-6781-4bf9-997c-22b60105a190"
+        "id": "75041358-4b79-4da7-8257-a071d4b59223"
       },
       "parentDataStepId": ""
     },
@@ -2588,7 +2672,7 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 1012.5050000000001,
+          "x": 1013.5050000000001,
           "y": 217.5
         }
       },
@@ -2603,7 +2687,7 @@
         "kind": "TableStepModel",
         "relation": {
           "kind": "UnionRelation",
-          "id": "0cc715e8-18c6-467c-96c7-059bf78b564a",
+          "id": "cd508039-7b5f-4474-aaa8-8f077906e5f3",
           "relations": []
         }
       }
@@ -2877,7 +2961,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "affdd6aa-2119-41fb-916f-a402fcfc8817"
+        "id": "567bc45d-9b73-451f-ac65-ffd498a63358"
       },
       "parentDataStepId": ""
     },
@@ -2885,7 +2969,7 @@
       "kind": "TableStep",
       "id": "e0671f49-70cd-4bd9-bed2-6d6bcad9f3fb",
       "groupId": "",
-      "name": "86412 Array Layout short.txt",
+      "name": "enrichment_86402_86412_87102_arrays.csv",
       "inputs": [],
       "outputs": [
         {
@@ -2899,7 +2983,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 182.80581665039062,
+          "x": 278.2297058105469,
           "y": 55.0
         },
         "topLeft": {
@@ -2912,15 +2996,41 @@
         "kind": "StepState",
         "taskId": "",
         "taskState": {
-          "kind": "InitState"
+          "kind": "DoneState"
         }
       },
       "model": {
         "kind": "TableStepModel",
         "relation": {
-          "kind": "UnionRelation",
-          "id": "0edac035-e9ed-4f43-9ae7-3255cef9c40a",
-          "relations": []
+          "kind": "RenameRelation",
+          "id": "rename_af71db16af576589caa54bf951caf045",
+          "relation": {
+            "kind": "SimpleRelation",
+            "id": "af71db16af576589caa54bf951caf045",
+            "index": 0
+          },
+          "inNames": [
+            "ID",
+            "Sequence",
+            "SeqMatch",
+            "UniprotName",
+            "UniprotID",
+            "SeqSimilarity",
+            "family",
+            "af71db16af576589caa54bf951caf045._rids",
+            "af71db16af576589caa54bf951caf045.tlbId"
+          ],
+          "outNames": [
+            "ID",
+            "Sequence",
+            "SeqMatch",
+            "UniprotName",
+            "UniprotID",
+            "SeqSimilarity",
+            "family",
+            "rowId",
+            "tableId"
+          ]
         }
       }
     },
@@ -2994,7 +3104,7 @@
   ],
   "offset": {
     "kind": "Point",
-    "x": -510.0,
-    "y": -90.0
+    "x": -461.0,
+    "y": -92.0
   }
 }
