@@ -394,7 +394,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "1ed60d1d-503a-43c7-b158-e9e2f2a5c1dc"
+    "id": "58763a2c-2035-4586-91e4-fca2d504044e"
    },
    "parentDataStepId": ""
   },
@@ -808,7 +808,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "1fbad94b-127a-4df2-9eef-c756af6216f3"
+    "id": "111e0daf-5942-4f31-88bd-193a62be123a"
    },
    "parentDataStepId": ""
   },
@@ -940,7 +940,7 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 1060.0842187500002,
+     "x": 1062.0842187500002,
      "y": 797.5
     }
    },
@@ -1196,7 +1196,7 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 1
+     "nRows": 95472
     },
     "filters": {
      "kind": "Filters",
@@ -1350,13 +1350,13 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 1
+     "nRows": 9
     },
     "taskId": ""
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "f1ebdd7b-530d-47fa-a71a-09f20d73b68e"
+    "id": "5e9ae389-8079-4211-9b45-3255fa0919b9"
    },
    "parentDataStepId": ""
   },
@@ -1806,7 +1806,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "53489899-bc65-4367-a158-fece4ee6148e"
+    "id": "33b0a8f5-133f-4bc5-8b88-7815c5eaf8b2"
    },
    "parentDataStepId": ""
   },
@@ -2063,7 +2063,7 @@
     },
     "columnTable": {
      "kind": "CrosstabTable",
-     "cellSize": 15.0,
+     "cellSize": 152.0,
      "offset": 0,
      "graphicalFactors": [
       {
@@ -2157,7 +2157,7 @@
     "rowTable": {
      "kind": "CrosstabTable",
      "cellSize": 36.38805346700084,
-     "offset": 0,
+     "offset": 30593,
      "graphicalFactors": [
       {
        "kind": "GraphicalFactor",
@@ -2275,7 +2275,7 @@
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 16.0,
+         "x": 22.0,
          "y": 30.0
         },
         "topLeft": {
@@ -2317,7 +2317,7 @@
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 19.0,
+         "x": 30.0,
          "y": 30.0
         },
         "topLeft": {
@@ -2338,7 +2338,7 @@
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 203.0,
+         "x": 52.0,
          "y": 30.0
         },
         "topLeft": {
@@ -2373,7 +2373,49 @@
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "js0.SeqMatch",
+        "name": "js0.PepProtein_SeqMatch",
+        "type": "string"
+       },
+       "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+         "kind": "Point",
+         "x": 104.0,
+         "y": 30.0
+        },
+        "topLeft": {
+         "kind": "Point",
+         "x": 0.0,
+         "y": 0.0
+        }
+       }
+      },
+      {
+       "kind": "GraphicalFactor",
+       "factor": {
+        "kind": "Factor",
+        "name": "js0.PepProtein_UniprotName",
+        "type": "string"
+       },
+       "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+         "kind": "Point",
+         "x": 0.0,
+         "y": 30.0
+        },
+        "topLeft": {
+         "kind": "Point",
+         "x": 0.0,
+         "y": 0.0
+        }
+       }
+      },
+      {
+       "kind": "GraphicalFactor",
+       "factor": {
+        "kind": "Factor",
+        "name": "js0.PepProtein_UniprotID",
         "type": "string"
        },
        "rectangle": {
@@ -2394,56 +2436,14 @@
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "js0.UniprotID",
-        "type": "string"
-       },
-       "rectangle": {
-        "kind": "Rectangle",
-        "extent": {
-         "kind": "Point",
-         "x": 130.0,
-         "y": 30.0
-        },
-        "topLeft": {
-         "kind": "Point",
-         "x": 0.0,
-         "y": 0.0
-        }
-       }
-      },
-      {
-       "kind": "GraphicalFactor",
-       "factor": {
-        "kind": "Factor",
-        "name": "js0.UniprotName",
-        "type": "string"
-       },
-       "rectangle": {
-        "kind": "Rectangle",
-        "extent": {
-         "kind": "Point",
-         "x": 150.0,
-         "y": 30.0
-        },
-        "topLeft": {
-         "kind": "Point",
-         "x": 0.0,
-         "y": 0.0
-        }
-       }
-      },
-      {
-       "kind": "GraphicalFactor",
-       "factor": {
-        "kind": "Factor",
-        "name": "js0.SeqSimilarity",
+        "name": "js0.PepProtein_SeqSimilarity",
         "type": "double"
        },
        "rectangle": {
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 170.0,
+         "x": 72.0,
          "y": 30.0
         },
         "topLeft": {
@@ -2497,13 +2497,13 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 124020
+     "nRows": 124488
     },
     "taskId": ""
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "a7267459-f721-4aa7-9caa-5cf0262a3244"
+    "id": "c4953a7c-1599-4573-a30b-27feaafdd458"
    },
    "parentDataStepId": ""
   },
@@ -2550,7 +2550,7 @@
    "kind": "TableStep",
    "id": "fcbaf7e7-16a2-4699-afd5-5b49bd4a027b",
    "groupId": "",
-   "name": "641024305_641024309_641024313-on 1200PTKlysv06-run 221028091613.zip",
+   "name": "641031403_641031404_641031406-on 1200PTKlysv06-run 230703112607.zip",
    "inputs": [],
    "outputs": [
     {
@@ -2585,7 +2585,7 @@
     "kind": "TableStepModel",
     "relation": {
      "kind": "UnionRelation",
-     "id": "95c4f33b-51a2-40d2-b346-15f04aa71587",
+     "id": "edd89784-40a4-4789-ac95-909b91b82e5a",
      "relations": []
     }
    }
@@ -2865,7 +2865,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "2c9c44eb-0b28-43cf-9ed0-2a4bb189af5c"
+    "id": "3b096d71-c1fa-425f-a9a4-211a59b144e9"
    },
    "parentDataStepId": ""
   },
@@ -2873,7 +2873,7 @@
    "kind": "TableStep",
    "id": "e0671f49-70cd-4bd9-bed2-6d6bcad9f3fb",
    "groupId": "",
-   "name": "enrichment_86402_86412_87102_arrays.csv",
+   "name": "enrichment_86312_86402_86412_87102_87202_arrays.csv",
    "inputs": [],
    "outputs": [
     {
@@ -2887,12 +2887,12 @@
     "kind": "Rectangle",
     "extent": {
      "kind": "Point",
-     "x": 278.2297058105469,
+     "x": 361.80963134765625,
      "y": 55.0
     },
     "topLeft": {
      "kind": "Point",
-     "x": 1267.505,
+     "x": 1225.7150372314454,
      "y": 796.5
     }
    },
@@ -2908,33 +2908,35 @@
     "kind": "TableStepModel",
     "relation": {
      "kind": "RenameRelation",
-     "id": "rename_af71db16af576589caa54bf951caf045",
+     "id": "rename_8afbc9a39a4ab755e12a2d2f2effa745",
      "relation": {
       "kind": "SimpleRelation",
-      "id": "56ca3a02c43ee820338a3277f09f959e18fea656c32162c6820a174d488a9555",
+      "id": "8aca2db77b7c34af922a653bec8a204a6cc1ef542aeab0384176e6c4c397b912",
       "index": 0
      },
      "inNames": [
       "ID",
       "Sequence",
-      "SeqMatch",
-      "UniprotName",
-      "UniprotID",
-      "SeqSimilarity",
+      "PepProtein_SeqMatch",
+      "PepProtein_UniprotName",
+      "PepProtein_UniprotID",
+      "PepProtein_SeqSimilarity",
       "family",
-      "56ca3a02c43ee820338a3277f09f959e18fea656c32162c6820a174d488a9555._rids",
-      "56ca3a02c43ee820338a3277f09f959e18fea656c32162c6820a174d488a9555.tlbId"
+      "chip_num",
+      "entrezid",
+      "8aca2db77b7c34af922a653bec8a204a6cc1ef542aeab0384176e6c4c397b912._rids"
      ],
      "outNames": [
       "ID",
       "Sequence",
-      "SeqMatch",
-      "UniprotName",
-      "UniprotID",
-      "SeqSimilarity",
+      "PepProtein_SeqMatch",
+      "PepProtein_UniprotName",
+      "PepProtein_UniprotID",
+      "PepProtein_SeqSimilarity",
       "family",
-      "rowId",
-      "tableId"
+      "chip_num",
+      "entrezid",
+      "rowId"
      ]
     }
    }
@@ -3011,8 +3013,8 @@
  ],
  "offset": {
   "kind": "Point",
-  "x": -638.0,
-  "y": -179.0
+  "x": -506.0,
+  "y": -98.0
  },
  "scale": 1.0
 }
