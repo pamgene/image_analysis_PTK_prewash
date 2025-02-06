@@ -394,7 +394,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "58763a2c-2035-4586-91e4-fca2d504044e"
+    "id": "e6c92a7c-481e-402e-afd9-83e5e8a882bf"
    },
    "parentDataStepId": ""
   },
@@ -808,7 +808,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "111e0daf-5942-4f31-88bd-193a62be123a"
+    "id": "d89528ca-39ff-4049-b410-00f98c376b76"
    },
    "parentDataStepId": ""
   },
@@ -1356,7 +1356,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "5e9ae389-8079-4211-9b45-3255fa0919b9"
+    "id": "1d7e7eac-de68-445c-b970-498c9cd59f1e"
    },
    "parentDataStepId": ""
   },
@@ -1806,7 +1806,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "33b0a8f5-133f-4bc5-8b88-7815c5eaf8b2"
+    "id": "502f8f3a-3719-4ebf-b97b-c4393305c01f"
    },
    "parentDataStepId": ""
   },
@@ -2157,7 +2157,7 @@
     "rowTable": {
      "kind": "CrosstabTable",
      "cellSize": 36.38805346700084,
-     "offset": 30593,
+     "offset": 0,
      "graphicalFactors": [
       {
        "kind": "GraphicalFactor",
@@ -2436,6 +2436,27 @@
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
+        "name": "js0.entrezid",
+        "type": "string"
+       },
+       "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+         "kind": "Point",
+         "x": 120.0,
+         "y": 30.0
+        },
+        "topLeft": {
+         "kind": "Point",
+         "x": 0.0,
+         "y": 0.0
+        }
+       }
+      },
+      {
+       "kind": "GraphicalFactor",
+       "factor": {
+        "kind": "Factor",
         "name": "js0.PepProtein_SeqSimilarity",
         "type": "double"
        },
@@ -2503,7 +2524,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "c4953a7c-1599-4573-a30b-27feaafdd458"
+    "id": "59585d38-dcd8-43b6-a795-7f3d280ea79f"
    },
    "parentDataStepId": ""
   },
@@ -2585,9 +2606,10 @@
     "kind": "TableStepModel",
     "relation": {
      "kind": "UnionRelation",
-     "id": "edd89784-40a4-4789-ac95-909b91b82e5a",
+     "id": "f0f8d68c-60de-456e-b4d2-ed98483ec2d2",
      "relations": []
-    }
+    },
+    "filterSelector": ""
    }
   },
   {
@@ -2865,7 +2887,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "3b096d71-c1fa-425f-a9a4-211a59b144e9"
+    "id": "5a4e1d77-e10b-4238-9976-b043ba1f81a6"
    },
    "parentDataStepId": ""
   },
@@ -2908,10 +2930,10 @@
     "kind": "TableStepModel",
     "relation": {
      "kind": "RenameRelation",
-     "id": "rename_8afbc9a39a4ab755e12a2d2f2effa745",
+     "id": "rename_bd72ff6c62dabbe0efa724054c4180be",
      "relation": {
       "kind": "SimpleRelation",
-      "id": "8aca2db77b7c34af922a653bec8a204a6cc1ef542aeab0384176e6c4c397b912",
+      "id": "10b6b107d066fa43aa82de5645f16c212179e527794bf1e8d82f404864dee6da",
       "index": 0
      },
      "inNames": [
@@ -2924,7 +2946,7 @@
       "family",
       "chip_num",
       "entrezid",
-      "8aca2db77b7c34af922a653bec8a204a6cc1ef542aeab0384176e6c4c397b912._rids"
+      "10b6b107d066fa43aa82de5645f16c212179e527794bf1e8d82f404864dee6da._rids"
      ],
      "outNames": [
       "ID",
@@ -2938,7 +2960,8 @@
       "entrezid",
       "rowId"
      ]
-    }
+    },
+    "filterSelector": ""
    }
   },
   {
@@ -3013,8 +3036,8 @@
  ],
  "offset": {
   "kind": "Point",
-  "x": -506.0,
-  "y": -98.0
+  "x": -490.0,
+  "y": -187.0
  },
  "scale": 1.0
 }
